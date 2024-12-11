@@ -5,7 +5,6 @@ class TriangleTestCase(unittest.TestCase):
     def test_triangle_area(self): 
         """Площадь треугольника: основание и высота положительные.""" 
         self.assertEqual(triangle_area(10, 5), 25) 
- 
     def test_triangle_area_zero(self): 
         """Площадь треугольника: основание или высота равны 0.""" 
         self.assertEqual(triangle_area(0, 5), 0) 
@@ -23,7 +22,7 @@ class TriangleTestCase(unittest.TestCase):
     def test_triangle_perimeter_negative(self): 
         """Периметр треугольника: сторона отрицательная.""" 
         with self.assertRaises(ValueError): 
-            triangle_perimeter(-3, 4, 5) 
+            triangle_perimeter(-3, 4) 
  
 if __name__ == "__main__": 
     unittest.main()
