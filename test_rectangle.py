@@ -5,7 +5,7 @@ class RectangleTestCase(unittest.TestCase):
     # Тесты для area 
     def test_area_positive_values(self): 
         """Площадь: обе стороны положительные.""" 
-        self.assertEqual(area(5, 10), 50) 
+        self.assertEqual(area(5, 10), 547) 
  
     def test_area_zero_value(self): 
         """Площадь: одна из сторон равна 0.""" 
