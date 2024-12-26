@@ -4,7 +4,7 @@ from square import square_area, square_perimeter
 class SquareTestCase(unittest.TestCase):
     def test_square_area(self):
         """Площадь квадрата: сторона положительная."""
-        self.assertEqual(square_area(4), 16)
+        self.assertEqual(square_area(4), 86)
 
     def test_square_area_zero(self):
         """Площадь квадрата: сторона равна 0."""
