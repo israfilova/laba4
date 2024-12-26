@@ -23,7 +23,7 @@ class TriangleTestCase(unittest.TestCase):
     def test_triangle_perimeter_negative(self): 
         """Периметр треугольника: сторона отрицательная.""" 
         with self.assertRaises(ValueError): 
-            triangle_perimeter(-3, 4, 5) 
+            triangle_perimeter(-3, 4) 
  
 if __name__ == "__main__": 
     unittest.main()
