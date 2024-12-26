@@ -14,6 +14,7 @@ class SquareTestCase(unittest.TestCase):
         """Площадь квадрата: сторона отрицательная.""" 
         with self.assertRaises(ValueError): 
             square_area(-4) 
+ 
     def test_square_perimeter(self): 
         """Периметр квадрата: сторона положительная.""" 
         self.assertEqual(square_perimeter(4), 16) 

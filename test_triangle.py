@@ -5,7 +5,7 @@ class TriangleTestCase(unittest.TestCase):
     def test_triangle_area(self): 
         """Площадь треугольника: основание и высота положительные.""" 
         self.assertEqual(triangle_area(10, 5), 25) 
-
+ 
     def test_triangle_area_zero(self): 
         """Площадь треугольника: основание или высота равны 0.""" 
         self.assertEqual(triangle_area(0, 5), 0) 
